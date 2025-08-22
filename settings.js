@@ -5,10 +5,10 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 //===============================LAKIYA-MD===================================
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=bIkUzRYQ#QMAKLcj6mMcqK-kgX2qFnIXuyax5vNdeT_WPlP3dB38' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=iNdDGKaK#3BS6510pehFYGdDWGRLL75Y6imMI_bm681V-XhqfpHg' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
-MODE: process.env.MODE === undefined ?"privet" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 WELCOME: process.env.WELCOME === undefined ?"true" : process.env.WELCOME,
 WELCOME_ALERT: process.env.WELCOME_ALERT === undefined ?"false" : process.env.WELCOME_ALERT,
 WELCOME_SET: process.env.WELCOME_SET === undefined ?"Welcome to our group! Please follow the rules and enjoy your stay" : process.env.WELCOME,
